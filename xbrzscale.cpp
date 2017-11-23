@@ -19,8 +19,8 @@
 #include <cstdio>
 #include <cstdint>
 
-#include "SDL.h"
-#include "SDL_image.h"
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_image.h"
 #include "xbrz/xbrz.h"
 
 inline Uint32 SDL_GetPixel(SDL_Surface *surface, int x, int y)
